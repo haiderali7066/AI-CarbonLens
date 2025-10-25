@@ -115,9 +115,9 @@ export default function CarbonCalculator() {
             value={model}
             onChange={(e) => setModel(e.target.value)}
           >
-            <option>GPT-4</option>
-            <option>LLaMA</option>
-            <option>Gemini</option>
+            <option className="text-black">GPT-4</option>
+            <option className="text-black">LLaMA</option>
+            <option className="text-black">Gemini</option>
           </select>
         </div>
 
@@ -142,9 +142,9 @@ export default function CarbonCalculator() {
             value={region}
             onChange={(e) => setRegion(e.target.value)}
           >
-            <option>Pakistan</option>
-            <option>USA</option>
-            <option>Germany</option>
+            <option className="text-black">Pakistan</option>
+            <option className="text-black">USA</option>
+            <option className="text-black">Germany</option>
           </select>
         </div>
       </div>
